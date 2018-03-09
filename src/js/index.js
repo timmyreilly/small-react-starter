@@ -1,13 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// class Header extends React.Component {
-//     render() {
-//         return (
-//             <h1> Wazzup </h1>
-//         )
-//     }
-// }
 
 class Header extends React.Component {
   constructor() {
