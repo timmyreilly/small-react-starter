@@ -15,7 +15,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --hot --content-base dist/",
     "dev": "webpack-dev-server --content-base src/ --hot --inline --devtool inline-source-map"
   }
 }

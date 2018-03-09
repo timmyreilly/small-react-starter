@@ -6,12 +6,15 @@ class Header extends React.Component {
   constructor() {
     super(); 
     this.state = {
-      userName: "Tim"
+      userName: "you"
     }
   }
   render() {
     return (
-      <h1>Hello, {this.state.userName}</h1>
+      <div id="menu">
+        <h1 className="menu">Hello, {this.state.userName}</h1>
+        <button>Wazzup</button>
+      </div>
     )
   }
 }
