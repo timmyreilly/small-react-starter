@@ -3,11 +3,13 @@ import './style.css';
 import Web3 from 'web3';
 import _ from 'lodash';
 import { Link } from 'react-router-dom';
+// import ganache from 'ganache-cli'
 
 
 var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 //var web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/'));
 
+// var web3 = new Web3(new Web3.setProvider(ganache.provider()));
 
 class Home extends Component {
 

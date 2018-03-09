@@ -11,3 +11,7 @@ You'll also want the ganache-cli:
 
 `npm install -g ganache-cli`
 `ganache-cli --debug`
+
+This is a good one: 
+
+`ganache-cli --debug -a 3 --blockTime 1` 
